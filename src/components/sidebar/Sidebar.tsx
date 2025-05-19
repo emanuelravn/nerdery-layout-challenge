@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import './sidebar.css'
 
 export const Sidebar = () => {
+    const [open, setOpen] = useState(false)
     return (
         <div className='sidebar-container'>
             <div className='skeleton-container'>
@@ -16,16 +18,17 @@ export const Sidebar = () => {
                 <p><span className='square'> </span>Trash</p>
             </div>
             <div className='button-container'>
-                <div className="idea-container">
-                    <div className='list-container'>
-                        <p><span className='square2'> </span>Upload files</p>
-                        <p><span className='square2'> </span>Upload folder</p>
-                        <p><span className='square2'> </span>New folder</p>
-                        <p><span className='square2'> </span>More</p>                            
-                    </div>
-                    <div className="tail"></div>
-                </div>
-                <button className='create-button'><span className='button-text'>Create New</span> <span className='plus-sign'>+</span></button>
+                {open && (
+                    <div className="idea-container">
+                        <div className="list-container">
+                            <p><span className="square2" />Upload files</p>
+                            <p><span className="square2" />Upload folder</p>
+                            <p><span className="square2" />New folder</p>
+                            <p><span className="square2" />More</p>
+                        </div>
+                    <div className="tail" /></div>
+                )}
+                <button onClick={() => setOpen(prev => !prev)} className='create-button'><span className='button-text'>Create New</span> <span className='plus-sign'>+</span></button>
             </div>
             
         </div>
