@@ -1,0 +1,145 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #343951;
+  font-size: 10px;
+}
+
+.skeleton-container {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 130px;
+}
+
+.skeleton {
+  background: linear-gradient(to left, #689ef8, #ff6860, #ff9f00);
+  border-radius: 4px;
+  width: 74px;
+  height: 21px;
+  border-radius: 5px;
+  margin-left: 18%;
+  margin-bottom: 23px;
+}
+
+.list-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 1em;
+  list-style-type: none;
+  width: 100%;
+  height: 40%;
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #464c61;
+}
+.list-menu p {
+  display: flex;
+  align-items: center;
+  line-height: 100%;
+  gap: 1rem;
+  color: #858a9d;
+  margin-left: 18%;
+}
+
+.square {
+  height: 15px;
+  min-width: 15px;
+  border: 1px solid #858a9d;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push content to the bottom */
+  align-items: center;
+  width: 100%;
+  height: 53%;
+}
+
+.idea-container {
+  width: 116px;
+  height: 111px;
+  background-color: #464c61;
+  border-radius: 9px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.list-container p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  line-height: 100%;
+  gap: 0.5em;
+  margin-left: 18%;
+  color: #bec0c8;
+  margin-bottom: -5px;
+}
+
+.square2 {
+  height: 13px;
+  min-width: 13px;
+  border: 1px solid #ffffff;
+}
+
+.tail {
+  position: absolute;
+  bottom: -7px;
+  left: 23px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #464c61;
+}
+
+.create-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  background-color: #ff9f00;
+  border-radius: 7px;
+  height: 30px;
+  width: 116px;
+  color: #ffffff;
+  font-size: 10px;
+  border: none;
+  line-height: 100%;
+
+  margin-bottom: 25px;
+}
+
+.button-text {
+  margin-left: 12px;
+}
+
+.plus-sign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  width: 21px;
+  height: 21px;
+  border-radius: 4px;
+  background-color: #ffb233;
+  transform: translateX(1px);
+  color: #ffffff;
+}
