@@ -2,6 +2,7 @@ import { Card } from "./card/Card";
 import "./content.css";
 import { RowCard } from "./row-card/RowCard";
 import { SearchBar } from "./searchbar/SearchBar";
+import rectangle from '../../../src/assets/rectangle.png'
 
 export const Content = () => {
   return (
@@ -39,9 +40,9 @@ export const Content = () => {
         <button className="view-button">View All</button>
       </div>
       <div className="card-container">
-        <Card icon="../src/assets/rectangle.png" dots={false} circleBorderColor={["#4AC29D", "#FF6860"]} title="Landing Page" createdAt="20.02.2020" hasMore={false} width="157px" height="79px" margins={{marginTopHeader:"12px", marginTopBody:"-15px", marginTopDate:"-7px", marginLeftCircle: "40px"}}/>
-        <Card icon="../src/assets/rectangle.png" dots={false} circleBorderColor={["#4AC29D", "#FF6860", "#FF9F00"]} title="Illustration Pack" createdAt="20.02.2020" hasMore={true} width="157px" height="79px" margins={{marginTopHeader:"12px", marginTopBody:"-15px", marginTopDate:"-7px", marginLeftCircle: "40px"}}/>
-        <Card icon="../src/assets/rectangle.png" dots={false} circleBorderColor={["#4AC29D", "#FF9F00"]} title="CV Design" createdAt="20.02.2020" hasMore={false} width="157px" height="79px" margins={{marginTopHeader:"12px", marginTopBody:"-15px", marginTopDate:"-7px", marginLeftCircle: "40px"}}/>
+        <Card icon={rectangle} dots={false} circleBorderColor={["#4AC29D", "#FF6860"]} title="Landing Page" createdAt="20.02.2020" hasMore={false} width="157px" height="79px" margins={{marginTopHeader:"12px", marginTopBody:"-15px", marginTopDate:"-7px", marginLeftCircle: "40px"}}/>
+        <Card icon={rectangle} dots={false} circleBorderColor={["#4AC29D", "#FF6860", "#FF9F00"]} title="Illustration Pack" createdAt="20.02.2020" hasMore={true} width="157px" height="79px" margins={{marginTopHeader:"12px", marginTopBody:"-15px", marginTopDate:"-7px", marginLeftCircle: "40px"}}/>
+        <Card icon={rectangle} dots={false} circleBorderColor={["#4AC29D", "#FF9F00"]} title="CV Design" createdAt="20.02.2020" hasMore={false} width="157px" height="79px" margins={{marginTopHeader:"12px", marginTopBody:"-15px", marginTopDate:"-7px", marginLeftCircle: "40px"}}/>
       </div>
     </div>
   )

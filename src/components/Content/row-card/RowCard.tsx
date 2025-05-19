@@ -1,4 +1,5 @@
 import type { RowCardProps } from '../../../types/types'
+import group8 from '../../../../src/assets/group8.png'
 import './rowcard.css'
 
 export const RowCard = ({iconColor, title, members, lastModified}: RowCardProps) => {
@@ -8,7 +9,7 @@ export const RowCard = ({iconColor, title, members, lastModified}: RowCardProps)
             <p className='row-card-title'>{title}</p>
             <p className='row-card-info'>{members}</p>
             <p className='row-card-info'>{lastModified}</p>
-            <img src="../src/assets/group8.png" alt="dots" />
+            <img src={group8} alt="dots" />
         </div>
     )
 }
