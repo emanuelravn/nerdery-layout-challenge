@@ -7,7 +7,8 @@ export const Sidebar = () => {
                 <div className='skeleton'></div>
             </div>
             <div className='list-menu'>
-                <p style={{color: 'white'}}><span className='square' style={{border: '1px solid white'}}> </span>Home</p>
+                
+                <p style={{color: 'white'}}><span className='selector'> </span><span className='square' style={{border: '1px solid white'}}> </span>Home</p>
                 <p><span className='square'> </span>My Files</p>
                 <p><span className='square'> </span>Recent Files</p>
                 <p><span className='square'> </span>Shared Filed</p>

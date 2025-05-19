@@ -7,6 +7,16 @@
   font-size: 10px;
 }
 
+.selector {
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  background-color: #ffffff;
+  height: 44px;
+  width: 7px;
+  border-radius: 0px 10px 10px 0px;
+}
+
 .skeleton-container {
   width: 100%;
   height: 7%;

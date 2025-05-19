@@ -1,3 +1,111 @@
 .storage-container {
+  display: flex;
+  flex-direction: column;
   background-color: #f5f6fc;
+}
+
+.storage-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 79px;
+  line-height: 100%;
+  gap: 1rem;
+  font-size: 12px;
+  border-bottom: 1px solid #e0e7f1;
+}
+
+.storage-icon-1 {
+  width: 15px;
+  height: 15px;
+  background-color: #c4c4c4;
+  margin-left: 30px;
+}
+.storage-icon-2 {
+  width: 15px;
+  height: 15px;
+  background-color: #c4c4c4;
+}
+.storage-name {
+  margin-left: 50px;
+  color: #343951;
+}
+.storage-icon-3 {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  margin-left: -10px;
+}
+
+.storage-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.storage-title {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #343951;
+}
+
+.storage-files {
+  margin-top: 15px;
+}
+
+.buy-storage {
+  margin-top: 20px;
+  background-color: #ffffff;
+  gap: 1em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 18px;
+}
+
+.but-skeleton-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.buy-skeleton {
+  background: linear-gradient(to left, #689ef8, #ff6860, #ff9f00);
+  border-radius: 4px;
+  width: 119px;
+  height: 73px;
+  border-radius: 11px;
+  margin-left: 30px;
+}
+
+.update-button {
+  width: 116px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ff9f00;
+  font-size: 10px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 33px;
+  margin-top: 5px;
+}
+
+.buy-title {
+  font-size: 12px;
+  font-weight: 400;
+  color: #343951;
+  margin-left: 35px;
+  margin-top: 18px;
+}
+
+.buy-subtitle {
+  font-size: 8px;
+  font-weight: 400;
+  color: #858a9d;
+  margin-left: 45px;
 }
