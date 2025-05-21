@@ -49,6 +49,7 @@
   align-items: center;
   justify-content: center;
   gap: 1em;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -107,8 +108,37 @@
 .row-card-container {
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
   gap: 1em;
   width: 100%;
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20px;
+  }
+
+  .headers-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    overflow-y: scroll;
+  }
+
+  .row-card-container {
+    overflow-y: scroll;
+  }
+
+  .name {
+    margin-left: 25px;
+  }
+  .members {
+    margin-left: 28px;
+  }
+
+  .last-mod {
+    margin-left: 20px;
+  }
 }

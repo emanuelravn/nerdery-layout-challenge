@@ -28,3 +28,9 @@
 .row-card-info {
   color: #858a9d;
 }
+
+@media (max-width: 480px) {
+  .row-card {
+    width: 300px;
+  }
+}

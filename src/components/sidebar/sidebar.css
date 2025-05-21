@@ -6,16 +6,6 @@
   font-size: 10px;
 }
 
-.selector {
-  position: absolute;
-  top: 15%;
-  left: 0%;
-  background-color: #ffffff;
-  height: 44px;
-  width: 7px;
-  border-radius: 0px 10px 10px 0px;
-}
-
 .skeleton-container {
   width: 100%;
   height: 7%;
@@ -54,10 +44,10 @@
   line-height: 100%;
   gap: 1rem;
   color: #858a9d;
-  margin-left: 18%;
 }
 
 .square {
+  margin-left: 18%;
   height: 15px;
   min-width: 15px;
   border: 1px solid #858a9d;
@@ -151,4 +141,45 @@
   background-color: #ffb233;
   transform: translateX(1px);
   color: #ffffff;
+}
+
+/**/
+.menu-item {
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu-item:hover {
+  color: white;
+}
+
+.menu-item .selector {
+  width: 4px;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.menu-item.active .selector {
+  background-color: white;
+  position: absolute;
+  height: 44px;
+  width: 7px;
+  left: 0px;
+  top: -14px;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.menu-title {
+  margin-top: 1px;
+}
+
+@media (max-width: 480px) {
+  .create-button {
+    width: 80px;
+  }
 }

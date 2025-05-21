@@ -7,3 +7,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 480px) {
+  .app-container {
+    display: grid;
+    grid-template-columns: 100px 170px 250px;
+  }
+}
