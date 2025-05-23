@@ -1,0 +1,36 @@
+.row-card {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 1.6fr 1.5fr 0.4fr;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+  width: 528px;
+  height: 42px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 100%;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.row-icon {
+  width: 21px;
+  height: 21px;
+  border-radius: 5px;
+  margin-left: 14px;
+}
+
+.row-card-title {
+  color: #343951;
+}
+
+.row-card-info {
+  color: #858a9d;
+}
+
+@media (max-width: 480px) {
+  .row-card {
+    width: 300px;
+  }
+}

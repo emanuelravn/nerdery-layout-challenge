@@ -1,0 +1,28 @@
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+}
+.search-bar {
+  min-width: 527px;
+  height: 29px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.search-bar::placeholder {
+  color: #bcbeca;
+  font-size: 10px;
+  padding-left: 40px;
+}
+
+.search-square {
+  position: relative;
+  left: 35px;
+  height: 15px;
+  min-width: 15px;
+  border: 1px solid #bcbeca;
+}

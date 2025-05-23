@@ -1,0 +1,44 @@
+.document-item {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  border-bottom: 1px solid #e0e7f1;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.document-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background-color: #c4c4c4;
+  margin-top: 10px;
+}
+
+.document-title {
+  font-size: 10px;
+  color: #343951;
+  margin-top: 15px;
+}
+
+.files {
+  font-size: 8px;
+  color: #858a9d;
+  margin-bottom: 13px;
+}
+
+.document-info {
+  line-height: 30%;
+}
+.size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  color: #343951;
+  margin-left: 40px;
+  margin-top: 12px;
+  background-color: #ffffff;
+  height: 21px;
+  width: 54px;
+}
